@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- initializing angular application -->
-<html lang="en" ng-app=""> 
+<html lang="en" ng-app="app"> 
 
 <head>
     <meta charset="UTF-8">
@@ -8,10 +8,13 @@
     <title>Basic template</title>
 
     <!-- load angularjs library-->
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>			
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="app.js"></script>
 
 </head>
 <body>
-    MEAN Basic template!
+	<div ng-controller = "appCtrl">
+    	<button>Hello World!</button>
+    </div>
 </body>
 </html>

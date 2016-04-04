@@ -3,5 +3,7 @@
 //create a module
 var app = angular.module('app',[]);
 
-//create a controller and define different functions of  the application
-//======================================================================
+//create a controller
+function appCtrl($scope) {
+	//different functions
+};

@@ -4,7 +4,7 @@ var express = require('express');
 	//bodyParser = require('body-parser');				// OPTIONAL-pull info from HTML POST
 	//morgan = require('morgan');						// OPTIONAL-reuest logger
 	//methodOverride = require('method-override');		// OPTIONAL-simulate DELETE and PUT
-	//mongoose = require('mongoose');					// mongoose for mongoDB
+	mongoose = require('mongoose');					// mongoose for mongoDB
  
  //configuration
 
