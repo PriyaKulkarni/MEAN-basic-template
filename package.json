@@ -1,19 +1,18 @@
 {
-  "name": "basic template",
+  "name": "basic_template",
   "version": "1.0.0",
-  "description": "basic template for MEAN",
+  "description": "A basic application built on MEAN stack",
   "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mongoose": "^4.4.11",
+    "morgan": "^1.7.0"
+  },
   "scripts": {
-    "test": "test",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "PK",
+  "author": "",
   "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.15.0",
-    "express": "^4.13.4",
-    "method-override": "^2.3.5",
-    "mongoose": "^4.4.10",
-    "morgan": "^1.7.0"
-  }
+  "homepage": "https://github.com/PriyaKulkarni/MEAN-basic-template#readme"
 }

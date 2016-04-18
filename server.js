@@ -1,10 +1,8 @@
 //set up
 var express = require('express');
-	app = express();									// OPTIONAL-create app with express
-	//bodyParser = require('body-parser');				// OPTIONAL-pull info from HTML POST
-	//morgan = require('morgan');						// OPTIONAL-reuest logger
-	//methodOverride = require('method-override');		// OPTIONAL-simulate DELETE and PUT
-	mongoose = require('mongoose');					// mongoose for mongoDB
+	app = express();									// creates app with express
+	morgan = require('morgan');							// OPTIONAL-logs incoming requests to console
+	mongoose = require('mongoose');						// mongoose for mongoDB
  
  //configuration
 
@@ -17,11 +15,9 @@ var express = require('express');
 		}
 	});
 
-//app.use(bodyParser.json());								// parse application/json
-//app.use(bodyParser.urlencoded({extended : true}));		// parse application/x-www-form-urlencoded
-//app.use(morgan('dev'));									// log concise output (colored by response status) for development
+app.use(morgan('dev'));										// log concise output to console for development 
 
-app.use(express.static(__dirname + '/public'));			// set static files location /public
+app.use(express.static(__dirname + '/public'));				// set static files location /public
 
 // load HTML view file
 app.get('/', function(req, res) {
