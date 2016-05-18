@@ -32,7 +32,7 @@ You'll need the following installed on your machine for this application to work
  3. Navigate to localhost:8080 from your broswer to view the application.
   (If any other applications are running on server port 8080, change to a different port)
 
-### Licence
+### License
 ISC
 
 [Node.js]: <http://nodejs.org>
