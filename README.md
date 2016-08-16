@@ -33,7 +33,7 @@ You'll need the following installed on your machine for this application to work
   (If any other applications are running on server port 8080, change to a different port)
 
 ### License
-ISC
+MIT
 
 [Node.js]: <http://nodejs.org>
 [MongoDB]: <https://www.mongodb.org/downloads?_ga=1.147420980.2031988443.1458330135#production>
